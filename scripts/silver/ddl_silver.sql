@@ -1,3 +1,17 @@
+/*
+================================================================
+DDL SCRIPT: Membuat Tabel di Skema Silver
+================================================================
+Tujuan Skrip:  
+ -Skrip ini digunakan untuk membuat tabel-tabel dalam skema 'silver'.  
+  Jika tabel sudah ada, maka akan dihapus terlebih dahulu sebelum 
+  dibuat ulang.  
+
+ -Gunakan skrip ini jika ingin memperbarui atau mendefinisikan ulang 
+  struktur tabel di skema 'silver'.  
+================================================================
+*/
+
 IF OBJECT_ID ('silver.crm_cust_info','U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info
 CREATE TABLE silver.crm_cust_info(
