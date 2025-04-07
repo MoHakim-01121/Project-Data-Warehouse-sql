@@ -1,4 +1,4 @@
-# Proyek Data Warehouse dan Analitik
+# Proyek Data Warehouse
 
 Selamat datang di repositori Proyek Data Warehouse dan Analitik! 🚀 
 Proyek ini dirancang untuk menunjukkan solusi lengkap dalam data warehousing dan analitik, mulai dari membangun data warehouse hingga menghasilkan wawasan yang bermanfaat. Sebagai proyek portofolio, ini menampilkan praktik terbaik di industri dalam rekayasa data dan analitik.
