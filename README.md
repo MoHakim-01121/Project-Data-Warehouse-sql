@@ -7,7 +7,7 @@ Proyek ini dirancang untuk menunjukkan solusi lengkap dalam data warehousing dan
 ## Arsitektur Data
 
 Arsitektur data dalam proyek ini mengikuti Medallion Architecture dengan tiga lapisan utama: **Bronze**, **Silver**, dan **Gold**.
-![Data Architecture](docs/dwh.drawio.png)
+![Data Architecture](docs/data_architecture.png)
 
 1. **Lapisan Bronze**: Menyimpan data mentah apa adanya dari sistem sumber. Data diambil dari file CSV dan dimasukkan ke dalam database SQL Server.
 2. **Lapisan Silver**: Melakukan proses pembersihan, standarisasi, dan normalisasi data agar siap untuk dianalisis.
